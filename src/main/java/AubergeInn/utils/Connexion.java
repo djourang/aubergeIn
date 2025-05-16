@@ -40,6 +40,7 @@ public class Connexion
      */
     public Connexion(String serveur, String bd, String user, String pass) throws IFT287Exception
     {
+
         if (serveur.equals("local"))
         {
             client = MongoClients.create();

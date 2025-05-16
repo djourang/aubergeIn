@@ -1,5 +1,6 @@
 package AubergeInn.utils;
-
+// cette class doit etre mis en euvre pour gerer une automatisation de la connexion de l'appli
+// a la bd presentement la connexion est exiger a chaque trasaction se qui n'est pas tres performant
 
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
